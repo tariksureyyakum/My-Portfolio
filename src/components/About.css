@@ -1,0 +1,36 @@
+/* Paragraflar */
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Kartvizit tarzı bölümler */
+.custom-border, .custom-border2, .custom-border3, .custom-border4, .custom-border5 {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  background-color: #ffffff; /* Renksiz arka plan */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hafif gölge ile hoş bir görünüm */
+  margin-bottom: 20px;
+}
+
+/* Vurgulu kısımlar */
+.custom-border:hover, .custom-border2:hover, .custom-border3:hover, .custom-border4:hover, .custom-border5:hover {
+  border-color: #004080; /* Vurgulamak için kurumsal renk ile sınır */
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Kartvizitlerin başlıkları */
+p.lead {
+  font-weight: bold;
+  border-left: 4px solid #004080; /* Vurgulayıcı sol kenar */
+  padding-left: 10px;
+  background-color: #f0f0f0;
+}

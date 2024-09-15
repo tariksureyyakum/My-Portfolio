@@ -1,0 +1,17 @@
+/* src/Projects.css */
+.card {
+  border-radius: 8px; /* Köşeleri yuvarlak yapar */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+}
+
+.card-body {
+  padding: 1.25rem; /* Padding ekler */
+}
+
+.card-title {
+  font-size: 1.25rem; /* Başlık boyutunu belirler */
+}
+
+.card-text {
+  font-size: 1rem; /* Açıklama metni boyutunu belirler */
+}

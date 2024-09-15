@@ -1,0 +1,30 @@
+/* Harita ve iletişim bilgileri */
+.contact-info {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.contact-info h3 {
+  color: #004080;
+  font-size: 1.5rem;
+}
+
+.contact-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.contact-info li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+/* Harita alanı */
+.map-container {
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #e0e0e0; /* Placeholder harita için */
+}

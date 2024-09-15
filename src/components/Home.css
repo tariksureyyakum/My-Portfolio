@@ -1,0 +1,42 @@
+/* src/Home.css */
+.home {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #f8f9fa; /* Açık gri arka plan */
+  }
+  
+  .home .display-3 {
+    font-size: 3rem;
+    color: #333; /* Koyu gri yazı rengi */
+    margin-bottom: 20px;
+  }
+  
+  .home .lead {
+    font-size: 1.25rem;
+    color: #666; /* Orta gri yazı rengi */
+    margin-bottom: 30px;
+  }
+  
+  .home .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Butonlar arasında boşluk */
+  }
+  
+  .home .cta-buttons .btn {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .home .cta-buttons .btn-primary {
+    background-color: #007bff; /* Mavi buton rengi */
+    color: #fff; /* Beyaz yazı rengi */
+  }
+  
+  .home .cta-buttons .btn-secondary {
+    background-color: #6c757d; /* Gri buton rengi */
+    color: #fff; /* Beyaz yazı rengi */
+  }
+  
